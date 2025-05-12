@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminder Donare Sânge</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #222222;
+      }
+
+      a {
+        color: #222222;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .divider {
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+      }
+
+      .email-wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+      }
+
+      .email-header {
+        background-color: #ffffff;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .email-body {
+        padding: 14px;
+        background-color: #f4f3f3;
+      }
+
+      .email-footer {
+        background-color: #1e1e1e;
+        padding: 14px;
+        color: #ffffff;
+      }
+
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      img.logo {
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .centered-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      img {
+        padding: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <div class="email-header">
+        <img
+          src="https://i.postimg.cc/433fnnBj/logo-mail-bloodchain.png"
+          class="logo"
+          alt="Sigla BloodChain"
+        />
+      </div>
+      <div class="email-body">
+        <h1>Reminder pentru Donarea de Sânge</h1>
+        <p>Bună, <%= name %>,</p>
+        <p>Sperăm că acest mesaj te găsește bine.</p>
+        <p>Vrem să îți reamintim că au trecut 52 de zile de la ultima ta donare de sânge. Generozitatea ta a avut deja un impact semnificativ, iar noi ți-am fi recunoscători dacă ai lua în considerare o nouă donare.</p>
+        <div class="divider"></div>
+        <p>Iată detaliile ultimei tale donări:</p>
+        <p><strong>Data ultimei donări:</strong> <%= date %></p>
+        <div class="divider"></div>
+        <p>Sprijinul tău continuu ajută la salvarea de vieți și la asigurarea unui stoc constant de sânge pentru cei în nevoie.</p>
+        <h3>Ce urmează:</h3>
+        <p>Dacă dorești să donezi din nou, te rugăm să vizitezi site-ul nostru sau să ne contactezi pentru a programa următoarea donare.</p>
+
+        <img
+          src="https://i.postimg.cc/J4k3szG6/human-blood-donate-and-heart-rate-on-white-background-free-vector.jpg"
+          alt="Donare de Sânge"
+          height="250px"
+          width="500px"
+          class="centered-img"
+        />
+        <h3>Notă:</h3>
+        <p>Dacă ai întrebări sau ai nevoie de asistență, nu ezita să ne contactezi la <a href="mailto:bloodchain.salveazavieti@gmail.com">bloodchain.salveazavieti@gmail.com</a>.</p>
+      </div>
+      <div class="email-footer">
+        <p>
+          Îți mulțumim pentru generozitatea și sprijinul tău continuu.
+        </p>
+        <p>
+          Cu stimă, <br />
+          Echipa BloodChain
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
