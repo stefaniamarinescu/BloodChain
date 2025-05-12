@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notificare Eligibilitate Donare Sânge</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #222222;
+      }
+
+      a {
+        color: #222222;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .divider {
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+      }
+
+      .email-wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+      }
+
+      .email-header {
+        background-color: #ffffff;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .email-body {
+        padding: 14px;
+        background-color: #f4f3f3;
+      }
+
+      .email-footer {
+        background-color: #1e1e1e;
+        padding: 14px;
+        color: #ffffff;
+      }
+
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      img.logo {
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      img {
+        padding: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <div class="email-header">
+        <img
+          src="https://i.postimg.cc/433fnnBj/logo-mail-bloodchain.png"
+          class="logo"
+          alt="Sigla BloodChain"
+        />
+      </div>
+      <div class="email-body">
+        <h1>Notificare privind eligibilitatea pentru donarea de sânge</h1>
+        <p>Bună, <%= name %>,</p>
+        <p>Îți mulțumim pentru interesul manifestat față de donarea de sânge prin intermediul BloodChain.</p>
+        <p>Din păcate, pe baza informațiilor furnizate, nu îndeplinești în acest moment criteriile de eligibilitate pentru a dona sânge.</p>
+        <p>Motivele specifice pentru neeligibilitate sunt următoarele:</p>
+        <ul>
+          <li>Vârsta minimă necesară: trebuie să ai cel puțin 18 ani pentru a putea dona sânge.</li>
+          <li>Greutatea minimă necesară: trebuie să ai cel puțin 52 kg pentru a putea dona sânge.</li>
+        </ul>
+        <div class="divider"></div>
+        <p>Conform informațiilor oferite de tine:</p>
+        <p><strong>Vârstă:</strong> <%= age %> ani</p>
+        <p><strong>Greutate:</strong> <%= weight %> kg</p>
+        <div class="divider"></div>
+        <p>Te încurajăm să îndeplinești aceste cerințe și să revii pe viitor. Îți mulțumim sincer pentru dorința ta de a dona și sperăm să te avem alături ca donator atunci când vei îndeplini criteriile necesare.</p>
+        <h3>Notă:</h3>
+        <p>Dacă crezi că este o eroare sau ai întrebări, te rugăm să ne contactezi la <a href="mailto:bloodchain.salveazavieti@gmail.com">bloodchain.salveazavieti@gmail.com</a>.</p>
+      </div>
+      <div class="email-footer">
+        <p>
+          Îți mulțumim pentru înțelegere și sprijin.
+        </p>
+        <p>
+          Cu stimă, <br />
+          Echipa BloodChain
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
