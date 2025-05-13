@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <div className="bg-[url('/hero3.jpg')] bg-no-repeat bg-cover bg-center h-[85vh] px-[200px]">
+    <div className="bg-[url('/hero5.jpg')] bg-no-repeat bg-cover bg-center h-[85vh] px-[200px]">
     
         <div className="flex flex-col text-white w-[50%] pt-[10%]">
 

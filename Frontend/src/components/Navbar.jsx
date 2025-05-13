@@ -10,8 +10,8 @@ const Navbar = () => {
             />
             <div className="flex items-center justify-center space-x-10 text-[18px] font-medium cursor-pointer">
                 <Link to="hero" smooth={true} duration={1000}>Acasă</Link>
-                <Link to="featured" smooth={true} duration={1000}>Despre noi</Link>
-                <Link to="contact" smooth={true} duration={1000}>Contactează-ne</Link>
+                <Link to="featured" smooth={true} duration={1000}>Informații utile</Link>
+                <Link to="contact" smooth={true} duration={1000}>Donează și tu!</Link>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 const Featured = () => {
     return (
         <div className="flex px-[200px] mt-[100px]">
-            <div className="bg-gray-200 h-[400px] w-[500px] z-10 mt-[20px]">
+            <div className="bg-gray-200 h-[420px] w-[500px] z-10 mt-[20px]">
                 <div className="m-10">
                     <h1 className="text-[25px] font-semibold">De ce este importantă donarea de sânge?</h1>
                     <hr className="bg-red-500 w-[150px] h-[3px] my-[20px]" />
